@@ -50,7 +50,11 @@ Words, phrases and names they use that the model should reuse.
 
 ## Stated-vs-observed mismatches
 
-Places where what they said about themselves differs from what they did. Empty for now.
+Places where what they said about themselves differs from what they did.
+
+| Stated                                           | Observed                                                                                     | Status | Source  |
+| :----------------------------------------------- | :------------------------------------------------------------------------------------------- | :----- | :------ |
+| Does not make developer jokes, finds them cringe | Not yet tested. Round 1b keeps two developer scenarios as controls (#11, #12) to check this. | open   | conv-01 |
 
 ## People they mention
 

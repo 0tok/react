@@ -49,7 +49,8 @@ Unknown. Candidates to test in round 1:
 
 - Trigger: being asked to do something impossible or vague `[hypothesis]`
 - Trigger: a plan being discussed in a serious tone `[hypothesis]`
-- Non-trigger: ? `[hypothesis]`
+- Non-trigger: developer situations. Being a developer does not make code, builds, PRs or
+  programming culture a joke topic for them. `[stated, conv-01]`
 
 ## Mechanism
 
@@ -66,8 +67,13 @@ Unknown.
 
 ## Boundaries
 
-Unknown. Ask directly in round 1; boundaries are the one area where self-report is
-reliable.
+- Developer jokes. Stated reason: they are cringe. This is a taste boundary, not an ethics
+  one, so it is about reception as much as generation: expect low "would I say it" **and**
+  low "I'd laugh" on developer-flavoured candidates. Round 1b tests it with two control
+  scenarios. `[stated, conv-01]`
+
+Everything else is unknown. Ask directly; boundaries are the one area where self-report
+is reliable.
 
 ## Delivery
 
