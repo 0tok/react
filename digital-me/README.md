@@ -20,8 +20,11 @@ what _this person_ would actually say or think, verified against the real person
 
 ## Status
 
-- Pattern 1, humor: **capture phase**. No calibration round has been scored yet.
-- Memory: seeded only from the first conversation. Everything is low confidence.
+- Pattern 1, humor: **calibrating, round 2**. Round 1b (capture) is scored; the pattern
+  file has its first real rules. Round 2 is the first lineup test: one predicted line in
+  their voice against two decoys per scenario.
+- Memory: has observed delivery facts from round 1b plus one confirmed stated-vs-observed
+  check (no developer jokes).
 
 ## How to use it right now
 

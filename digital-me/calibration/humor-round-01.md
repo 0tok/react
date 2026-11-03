@@ -94,28 +94,39 @@ the lineup test. The model writes this section **without** having read Part B.
 | 11  |            |                      |                   |
 | 12  |            |                      |                   |
 
-## Part D — Scoring (filled by the person, after Part C)
+## Part D — Results of round 1b
 
-| #   | Would-I-say-it (0–3) | Lineup: which column did you pick as yours? | Pass? | One line on the miss |
-| :-- | :------------------- | :------------------------------------------ | :---- | :------------------- |
-| 1   |                      |                                             |       |                      |
-| 2   |                      |                                             |       |                      |
-| 3   |                      |                                             |       |                      |
-| 4   |                      |                                             |       |                      |
-| 5   |                      |                                             |       |                      |
-| 6   |                      |                                             |       |                      |
-| 7   |                      |                                             |       |                      |
-| 8   |                      |                                             |       |                      |
-| 9   |                      |                                             |       |                      |
-| 10  |                      |                                             |       |                      |
-| 11  |                      |                                             |       |                      |
-| 12  |                      |                                             |       |                      |
+Scored on the Humor Lab page on 2026-11-03. Round 1b was a capture round, so there is no
+prediction score; the table shows what they actually typed and the best-scoring probe.
 
-**Round score:** mean would-I-say-it = ___ / 3, lineup pass rate = ___ %
+| #   | Real answer                                                                        | Silent | Best probe (score)         | Laughs                         |
+| :-- | :--------------------------------------------------------------------------------- | :----- | :------------------------- | :----------------------------- |
+| 1   | Why rush? Sarcastic answer maybe                                                   | no     | exaggeration (2)           | exaggeration                   |
+| 2   |                                                                                    | yes    | none scored                |                                |
+| 3   | I tell ChatGPT what to do                                                          | no     | none scored                |                                |
+| 4   | You will know my story for sure, but maybe it will be long after you reject me :)) | no     | all 0                      |                                |
+| 5   |                                                                                    | yes    | all 0                      |                                |
+| 6   |                                                                                    | no     | both non-joke controls (2) |                                |
+| 7   | This is my corner, i hope you don't snore                                          | no     | silence (1), absurdism (1) |                                |
+| 8   | Could have been worst                                                              | no     | all 0                      |                                |
+| 9   | Money like this comes with big problems , I'd rather pass and live easy life       | no     | none scored                | no thanks, literalism, sarcasm |
+| 10  |                                                                                    | yes    | "yes! let's do it" (1)     |                                |
+| 11  |                                                                                    | yes    | all 0                      |                                |
+| 12  | Things change                                                                      | no     | all 0                      |                                |
+
+Also from the first version of the page (developer scenarios 1 to 3): all silent, all 0.
+
+Interface note: they scored few probes and wrote their own answer instead. Their own
+words carry the signal; round 2 drops to three lines per scenario.
 
 ## Part E — Pattern edits from this round
 
-List every change made to `patterns/humor.md` and `memory.md` as a result, with the
-scenario number that caused it.
-
-- …
+- Triggers: humor fires only when addressed directly (#1, 3, 4, 7, 8, 9, 12); never in
+  third-party or group situations (#2, 5, 6, 10, 11).
+- Mechanism: five named mechanisms written from the real answers, mock-sincere reframing
+  first (#9, #3), understatement second (#8, #12, #1).
+- Selection: one short flat line, no built jokes; self as the smaller party (#4, #7).
+- Boundaries: developer jokes confirmed (#11, #12); no public joke at a third party (#6);
+  no comment on social rituals (#10).
+- Delivery: capitalised dialogue, `:))`, non-native phrasing kept, silence as output.
+- Memory: self-label "sarcastic" (#1), smiley style (#4), language features.
