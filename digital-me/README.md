@@ -25,7 +25,16 @@ what _this person_ would actually say or think, verified against the real person
 
 ## How to use it right now
 
-1. Open `calibration/humor-round-01.md` and answer the elicitation questions in your own words.
-2. Fill in the scenario battery **before** reading any model predictions, so your answers are not anchored.
-3. Run `/digital-me calibrate humor` and let the model fill in its predictions and score itself.
-4. Update `patterns/humor.md` from what the scoring revealed, bump the round, repeat.
+Round 1 runs through a rating page instead of the Markdown table:
+
+1. Open the Humor Lab artifact: https://claude.ai/artifact/LwqzMrYx7fbNw1tVJ2PeRm
+2. For each of the 12 scenarios, score every candidate line 0 to 3 on "is this me", mark the
+   ones you would laugh at, and type what you would actually say. Each candidate is secretly
+   tagged with one humor mechanism; the tags are hidden on the rating screen so they do not
+   bias you, and shown aggregated on the Profile tab.
+3. Ratings save to the artifact's database. Run `/digital-me score humor` and the model reads
+   them back with the artifact data tool, updates `patterns/humor.md` and `memory.md`, and
+   pushes new scenarios into the page's `scenarios` collection for round 2.
+
+`calibration/humor-round-01.md` stays as the paper version of the same round and as the
+elicitation questionnaire (Part A), which the page does not cover.

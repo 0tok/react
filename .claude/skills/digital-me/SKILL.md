@@ -60,6 +60,17 @@ Follow `digital-me/methodology.md` section 3 exactly. The ordering rule is criti
 
 ### `/digital-me score <pattern>` — after the user filled Part D
 
+For humor, the round 1 data lives in the Humor Lab artifact
+(https://claude.ai/artifact/LwqzMrYx7fbNw1tVJ2PeRm), not in Part D. Read it with the
+`ArtifactData` tool: `list` the `ratings` collection. Each document is one scenario:
+`scores` maps candidate id to 0–3, `laughs` marks candidates the user found funny,
+`own` is what they would actually say, `silent` means they would say nothing. The
+candidate texts and their hidden mechanism tags are in the page source
+(`SCENARIOS` in the published HTML; read the artifact to get it). Treat `own` as the
+ground truth and the scores as direction. To add scenarios for the next round without
+republishing, write documents to the `scenarios` collection with `order`, `text` and
+`cands` (`[{id, m, t}]`), same shape as the page's built-in ones.
+
 1. Read Parts B, C and D together.
 2. Compute the round score and write it into Part D.
 3. For each scenario scored 0 or 1, write one line in Part E naming the pattern section
