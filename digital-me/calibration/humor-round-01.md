@@ -1,6 +1,10 @@
 # Humor — calibration round 01
 
 > Status: waiting for the person to fill in Part A and Part B.
+> Revision 1b: the original battery was ten developer scenarios out of twelve. The person
+> said developer jokes are cringe and not something they do, so the battery was rewritten
+> around everyday situations. Two developer scenarios stay as controls. The live version
+> of this battery is the Humor Lab page; the table below mirrors it.
 > Rule: fill in Part B (your real answers) **before** running `/digital-me calibrate humor`.
 > The model must not read Part B until it has written Part C.
 
@@ -55,20 +59,20 @@ you do not want to answer; skipped questions are also data.
 Write what you would actually say or think. First reaction, no editing. If you would not
 say anything, write that; silence is a valid answer and a strong signal.
 
-| #   | Scenario                                                                                                                                              | Your real response |
-| :-- | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
-| 1   | A teammate opens a PR titled "small fix" that touches 84 files. You are the reviewer. What do you write as the first comment?                         |                    |
-| 2   | Someone in a group chat says "I think AI will replace all developers by next year".                                                                   |                    |
-| 3   | You walk into a meeting room and the projector shows a slide that says "Synergy Roadmap Q3".                                                          |                    |
-| 4   | A friend asks "how's the digital me project going?" and it is going badly.                                                                            |                    |
-| 5   | Your build has been failing for 40 minutes because of a missing comma. You just found it. What do you say to the room or the chat?                    |                    |
-| 6   | Someone sends you a motivational quote image on Monday morning.                                                                                       |                    |
-| 7   | A junior asks you, sincerely, "what is the hardest part of programming?"                                                                              |                    |
-| 8   | You are introduced at a party as "the one who is building a robot version of himself".                                                                |                    |
-| 9   | A stranger's bad pun in a comment thread. You have the option to reply.                                                                               |                    |
-| 10  | You are asked to name a new internal tool that converts Figma designs to React components. Give the first three names that come to mind, good or bad. |                    |
-| 11  | Your own code from two years ago breaks in production.                                                                                                |                    |
-| 12  | Someone asks, seriously, whether the AI version of you will be funnier than you.                                                                      |                    |
+| #   | Scenario                                                                                                                 | Your real response |
+| :-- | :----------------------------------------------------------------------------------------------------------------------- | :----------------- |
+| 1   | A friend is 25 minutes late. They text "2 min away". Twenty minutes later they sit down. First thing you say?            |                    |
+| 2   | At a dinner, someone mentions for the third time, unprompted, that they don't own a TV.                                  |                    |
+| 3   | A parent asks, again, what you actually do for work.                                                                     |                    |
+| 4   | A dating app match opens with: "so what's your story?"                                                                   |                    |
+| 5   | You're at a wedding. The DJ plays the same song for the second time.                                                     |                    |
+| 6   | A relative posts a Facebook status that is obviously meant to be a private message.                                      |                    |
+| 7   | You're stuck in an elevator with a stranger for a few minutes.                                                           |                    |
+| 8   | A friend sends a photo of their new, genuinely bad haircut and asks "honest opinion?"                                    |                    |
+| 9   | Shop assistant: "Would you like to sign up for our loyalty card? You get 2% back."                                       |                    |
+| 10  | Someone says "we should definitely hang out soon!" and you both know it won't happen.                                    |                    |
+| 11  | Control, developer. A teammate opens a PR titled "small fix" that touches 84 files. You are the reviewer. First comment? |                    |
+| 12  | Control, developer. Your own code from two years ago breaks in production.                                               |                    |
 
 ## Part C — Model predictions (filled by `/digital-me calibrate humor`)
 
