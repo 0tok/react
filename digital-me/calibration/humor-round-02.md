@@ -40,9 +40,49 @@ from a non-technical boss, to find the edge of the developer-joke boundary.
 
 ## Part D — Scores
 
-Filled by `/digital-me score humor` from the page's `ratings` collection (ids `p01` to
-`p12`).
+Scored on the page, 2026-11-03/04. Scores are 0–3 for pred / flat / gen.
 
-## Part E — Pattern edits from this round
+| #   | pred | flat | gen | Lineup  | Laugh | Own answer               |
+| :-- | :--- | :--- | :-- | :------ | :---- | :----------------------- |
+| 1   | 2    | 0    | 1   | pass    |       |                          |
+| 2   | 1    | 0    | –   | partial | pred  |                          |
+| 3   | 0    | 1    | 2   | fail    |       |                          |
+| 4   | 0    | 0    | 0   | fail    |       | Depends on who is asking |
+| 5   | 1    | 0    | 0   | pass    |       |                          |
+| 6   | 1    | 2    | 0   | fail    |       |                          |
+| 7   | 1    | 0    | 1   | tie     |       |                          |
+| 8   | 0    | 0    | 0   | fail    |       |                          |
+| 9   | 0    | 0    | 0   | fail    |       |                          |
+| 10  | 0    | 0    | 0   | fail    |       |                          |
+| 11  | 1    | 0    | 1   | tie     | pred  |                          |
+| 12  | 1    | 0    | 0   | pass    |       |                          |
 
-- …
+**Round score:** pred mean 0.67 / 3 (target 2.0). Lineup 3 of 11 fully scored = 27%
+(target 70%). Totals across all scenarios: pred 8, gen 5, flat 3. The prediction is the
+best of the three on aggregate but nowhere near "exactly me".
+
+Only one own answer was typed this round, so ground truth is thin. Round 3 fixes that in
+the interface: the own answer is required before the lines are revealed.
+
+## Part E — Misses and pattern edits
+
+- **#4 astrology.** Pred "Depends which sign is asking :))" scored 0. Their own: "Depends
+  on who is asking". Same skeleton, but the twist and the smiley killed it. Edit:
+  **deflection by ambiguity** is its own mechanism; the dodge is the whole joke, add
+  nothing to it. Delivery: `:))` is rare, at most one in twelve; default none.
+- **#3 the noise.** Mock-sincere deflection of blame scored 0; the plain apology scored 2.
+  Edit, Boundaries: when they are at fault, they own it plainly. Mock-sincere is for
+  low-stakes situations (cashback, small talk), never for dodging responsibility.
+- **#6 "you've changed".** Flattering decoy "I've changed into someone with a salary,
+  mainly" won with 2 over vague self-doubt at 1. Edit, Selection: a concrete literal
+  reframe beats vague self-deprecation. Self-deprecation needs an object.
+- **#7 moving apartments, #11 AI doing your job.** Ties with the generic answer. Edit,
+  Selection: when the request is real (a favour, a boss's question), the practical answer
+  is at least as likely as the joke.
+- **#8 kid's question, #10 bored of phone.** All three at 0, no own answer. Unknown. Retest
+  with a kid question in round 3 (#5).
+- **#9 pizza group chat.** Predicted silence scored 0, but "silent" was not ticked either.
+  Unknown. Retest the group-chat trigger in round 3 (#6) with a direct ask.
+- **#1, #5, #12 passes.** Understatement ("Still alive, so yes"), silence as a bystander,
+  and mock-sincere confession all in the right direction. None scored 3.
+- Interface: own answer now required before reveal.

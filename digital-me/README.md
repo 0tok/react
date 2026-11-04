@@ -20,9 +20,9 @@ what _this person_ would actually say or think, verified against the real person
 
 ## Status
 
-- Pattern 1, humor: **calibrating, round 2**. Round 1b (capture) is scored; the pattern
-  file has its first real rules. Round 2 is the first lineup test: one predicted line in
-  their voice against two decoys per scenario.
+- Pattern 1, humor: **calibrating, round 3**. Round 2 (first lineup) scored 0.67/3 and
+  27% lineup, below target. Seven mechanisms now. Round 3 requires their own answer before
+  the lineup is revealed.
 - Memory: has observed delivery facts from round 1b plus one confirmed stated-vs-observed
   check (no developer jokes).
 

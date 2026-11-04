@@ -1,7 +1,7 @@
 # Pattern: humor
 
-> Status: calibrating (round 2)
-> Last scored: `calibration/humor-round-01.md` (round 1b, capture round). No prediction score yet; round 2 is the first lineup test.
+> Status: calibrating (round 3)
+> Last scored: `calibration/humor-round-02.md` — would-I-say-it 0.67/3, lineup 27%
 
 Summary: humor is rare and reactive. It shows up almost only when someone speaks to them
 directly, and takes the form of one short, calm, sincere-sounding sentence whose content
@@ -68,6 +68,12 @@ silent with all candidates at 0, old-code scenario answered with a non-developer
 n07, single sample]`
 5. **Short rhetorical question as sarcasm.** "Why rush?". They label this themselves as
    sarcastic. `[observed + stated, round 1b n01]`
+6. **Deflection by ambiguity.** An answer that technically responds but commits to
+   nothing: "Depends on who is asking". The dodge is the whole joke; adding a twist to it
+   makes it worse (round 2 #4: the decorated version scored 0, the plain one is theirs).
+   `[observed, round 2 p04]`
+7. **Honest shrug.** When at fault, a plain admission with at most a small understatement
+   attached. Not a joke, but it is what replaces the joke. `[observed, round 2 p03]`
 
 ## Selection
 
@@ -83,6 +89,13 @@ two samples]`
   form, not in the form they laugh at. `[observed, round 1b n09]`
 - Exaggeration is liked but produced rarely: "i've aged. i have a beard now." scored 2 and
   got a laugh, the only exaggeration candidate to score above 0. `[observed, round 1b n01]`
+- A concrete literal reframe beats vague self-deprecation. "I've changed into someone with
+  a salary, mainly" (2) over "Hopefully for the better, but I doubt" (1). Self-deprecation
+  needs an object. `[observed, round 2 p06]`
+- When the request is real (a favour, money, a boss asking), the practical answer is at
+  least as likely as the joke. Round 2 #7 and #11 tied with the plain reply. `[observed]`
+- Less is more, consistently. Every prediction that scored above 1 was the shortest of the
+  three. `[observed, round 2]`
 
 ## Boundaries
 
@@ -94,6 +107,8 @@ two samples]`
   or silence, never a comment on the ritual. `[observed, round 1b n10]`
 - Does not comment on strangers' behaviour in public (the no-TV person, the DJ).
   `[observed]`
+- No joke that dodges responsibility. The noise-complaint deflection scored 0; the plain
+  apology scored 2. `[observed, round 2 p03]`
 
 ## Delivery
 
@@ -112,6 +127,32 @@ language" is inferred]`
 - Silence is an output: 4 of 12 scenarios. `[observed]`
 
 ## Calibration examples
+
+Round 2 (first prediction round):
+
+```
+Scenario:   Party: what do you think about astrology?
+Real:       Depends on who is asking
+Predicted:  Depends which sign is asking :))
+Score:      0/3, lineup fail
+Miss:       Right skeleton, over-decorated. Mechanism 6 added; smiley demoted.
+```
+
+```
+Scenario:   Neighbour asks about last night's noise; you were the noise
+Real:       (not typed) generic apology scored 2
+Predicted:  Yes, terrible people. Someone should talk to them.
+Score:      0/3, lineup fail
+Miss:       Boundary: no blame-dodging jokes. Mechanism 7 added.
+```
+
+```
+Scenario:   Waiter: was everything okay? Meal was mediocre
+Real:       (not typed)
+Predicted:  Still alive, so yes :))
+Score:      2/3, lineup pass
+Miss:       Direction right; probably the smiley is the gap to 3.
+```
 
 Round 1b was a capture round: candidates were mechanism probes, not predictions. "Real" is
 what they typed; "Top" is the highest-scored candidate and its score.
