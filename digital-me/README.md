@@ -20,9 +20,9 @@ what _this person_ would actually say or think, verified against the real person
 
 ## Status
 
-- Pattern 1, humor: **calibrating, round 3**. Round 2 (first lineup) scored 0.67/3 and
-  27% lineup, below target. Seven mechanisms now. Round 3 requires their own answer before
-  the lineup is revealed.
+- Pattern 1, humor: **calibrating, round 4**. Round 3 produced 10 own answers and a major
+  correction: the signature move is mock-grandiosity ("I have to become rich", "Art is not
+  for everybody"), not self-deprecation. Round 4 tests that with a one-tap lineup.
 - Memory: has observed delivery facts from round 1b plus one confirmed stated-vs-observed
   check (no developer jokes).
 
